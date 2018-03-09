@@ -1,0 +1,8 @@
+{
+  "name": "rvapp",
+  "app_id": "746219c1",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
