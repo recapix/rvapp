@@ -123,5 +123,6 @@
   "BASIC_VALIDATIONS": "Basic Validations",
   "PHONE_VALIDATIONS": "Phone Validations",
   "PASSWORD_VALIDATIONS": "Password Validations",
-  "ACCEPT_TERMS_VALIDATIONS": "Accept Terms Validations"
-}
+  "ACCEPT_TERMS_VALIDATIONS": "Accept Terms Validations",
+  "SEX": "Sex"
+} 

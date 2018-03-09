@@ -3,6 +3,7 @@ import { NavController, Slides } from 'ionic-angular';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 import { LoginPage } from '../login/login';
+import { SignupPage } from '../signup/signup';
 // import { SignupPage } from '../signup/signup';
 
 @Component({
@@ -46,7 +47,7 @@ export class WalkthroughPage {
   }
 
   goToSignup() {
-    // this.nav.push(SignupPage);
+    this.nav.push(SignupPage);
   }
 
 
