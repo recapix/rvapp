@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Http } from '@angular/http';
+import { HttpClient } from "@angular/common/http";
 import 'rxjs/add/operator/toPromise';
 import { Facebook } from '@ionic-native/facebook';
 import { NativeStorage } from '@ionic-native/native-storage';
@@ -11,7 +11,7 @@ export class FacebookLoginService {
   FB_APP_ID: number = 1856607037740277;
 
   constructor(
-    public http: Http,
+    public http: HttpClient,
     public nativeStorage: NativeStorage,
     public fb: Facebook
   ){
@@ -79,7 +79,7 @@ export class FacebookLoginService {
   getFriendsFakeData(): Promise<FacebookUserModel> {
     return this.http.get('./assets/example_data/social_integrations.json')
      .toPromise()
-     .then(response => response.json() as FacebookUserModel)
+     .then(response => response as FacebookUserModel)
      .catch(this.handleError);
   }
 

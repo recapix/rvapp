@@ -5,8 +5,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { WalkthroughPage } from '../pages/walkthrough/walkthrough'
 import { TranslateService } from '@ngx-translate/core';
 import { LangChangeEvent } from '@ngx-translate/core';
-import { Observable } from 'rxjs/Observable';
-
 
 
 @Component({
