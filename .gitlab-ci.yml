@@ -25,7 +25,6 @@ build_web:
     - npm run scss-lint
     - npm run test
     - npm run build
-    - npm run e2e
 
 build_ios:
   stage: deploy
